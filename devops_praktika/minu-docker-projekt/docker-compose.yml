@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  veebiserver:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+  andmebaas:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "TugevParool123!"
+    volumes:
+      - sql_andmed:/var/opt/mssql
+
+volumes:
+  sql_andmed:
