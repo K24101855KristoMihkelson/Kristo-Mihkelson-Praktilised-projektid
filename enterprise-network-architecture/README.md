@@ -66,5 +66,5 @@ Võrgutaristu toimimist kontrolliti järgmiste testidega:
 - Checkmk monitooring ja teavitused
 
 - Testide kirjeldused, tulemused ja kuvatõmmised
-- asuvad projekti PDF-dokumentatsiooni 4. peatükis,
-- lehekülgedel 52–76.
+  asuvad projekti PDF-dokumentatsiooni 4. peatükis,
+  lehekülgedel 52–76.
