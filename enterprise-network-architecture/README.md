@@ -45,3 +45,26 @@ Checkmk töölaud
 
 ## 💡 Õpiväljundid
 Projekti käigus sai praktiliselt rakendatud suurettevõtte võrgu planeerimise parimaid praktikaid, turvapoliitikate loomist ning reaalajas monitooringu tähtsust süsteemide stabiilsuse tagamisel.
+
+## Võrguturvalisuse testimine
+
+| Test | Oodatav tulemus |
+|---|---|
+| Külaliste VLAN → sisevõrk | Ühendus blokeeritud |
+| Administraatorite VLAN → haldusliides | Ühendus lubatud |
+| Tartu → Elva IPsec VPN | Tunnel toimib |
+| Checkmk → jälgitavad seadmed | Seireandmed nähtavad |
+
+## Testimine ja valideerimine
+
+Võrgutaristu toimimist kontrolliti järgmiste testidega:
+- VLAN-ide ühenduvus ja võrkude isolatsioon
+- IPsec Site-to-Site VPN
+- pfSense tulemüürireeglid
+- OpenVPN ja RDP ühendused
+- NAT ja pordisuunamine
+- Checkmk monitooring ja teavitused
+
+- Testide kirjeldused, tulemused ja kuvatõmmised
+- asuvad projekti PDF-dokumentatsiooni 4. peatükis,
+- lehekülgedel 52–76.
